@@ -1,5 +1,15 @@
-# Midweek Project
-Analyze Car Price dataset to model the multi-linear regression algorithm and predict the prices of the car. We were given the dataset which had many car features listed in it. Initially there were total of 205 observations and 26 variables out of which 8 were numeric, 18 were categorical (10 object and 8 float). There are no missing values in the dataset to be treated, hence the data can be considered as clean and ready to be used for modelling. However, later in our analysis we determined that some variables were not contributing much towards the objective of the model hence were dropped. Also, we converted the categorical variables level with the continuous label values.
+# Midweek Project: Car Prices
+Given a dataset and a data dictionary, you will perform a linear regression analysis that predicts the price of cars. The paper needs to be written in APA format and needs to be a minimum of 2 pages. Upload your markdown file as well. Any images that you want to use should be referenced in the appendix. Include responses to the following questions in your submission:
 
-# Final Project
-Objective of the exercise is to predict the Car features which can contribute to the higher mileage and fuel cost-effective vehicle. We will be creating several graphs for fitting the regression model and find the distribution of several features data points. We will depict the results of mean squared error to predict the model accuracy and later present the best fit model with significant factors or features which enhances the miles per gallon of the automobile. In this model we will be using multiple or multivariate linear regression technique. Our target or the independent variable is “MPG”, and we will determine our most significant independent variables during the modeling stage. This will help us interpreting the current dataset but also enable us to predict the unknown datapoints of future.
+1) What were the three most significant variables?
+2) Of those three, which had the greatest positive influence on car prices?
+3) How accurate was the model?
+
+# Final Project: Building the Car of the Future
+A car manufacturer known for making large automobiles is struggling with sales and has asked for your help in designing an energy efficient car. Using data gathered, determine which attributes may contribute to higher gas mileage so that they can design a more fuel efficient automobile.
+
+Part 1: Use proper data cleansing techniques to ensure that you have the highest quality data to model this problem. Detail your process and discuss the decisions you made to clean the data.
+
+Part 2: Build a linear regression model to accurately predict miles per gallon (MPG) based on the attributes of a vehicle. Discuss the significant attributes and how they can help you build the proper car.
+
+Part 3: Optimize the model using selection techniques, explain whether the model can achieve the specified goals, and describe which attributes contribute to higher MPG over others.
