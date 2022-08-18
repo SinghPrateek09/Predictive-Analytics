@@ -6,7 +6,11 @@ Your bank has gotten a list of loans and don’t have time to approve or reject 
 
 # Final Project: Understanding Magazine Subscription Behavior
 A magazine company is trying to understand last year’s decline in subscriptions. With people spending more time at home, they thought people would be spending more time reading. Using this dataset, help the company understand what is or isn’t working.
+
 Part 1: Use proper data cleansing techniques to ensure that you have the highest quality data to model this problem. Detail your process and discuss the decisions you made to clean the data.
+
 Part 2: Build a logistic model to accurately predict subscription behavior. Discuss which variables are significant, their business impact, and how that may help you learn about the business.
+
 Part 3: Build an SVM model to accurately predict subscription behavior. Discuss which variables are significant, their business impact, and how that may help you learn about the business.
+
 Part 4: Compare the accuracy of both models (overall accuracy, precision, recall) and the overall variables that were deemed significant. Discuss which model you would recommend based upon these three metrics.
