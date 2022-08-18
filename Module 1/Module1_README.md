@@ -1,5 +1,13 @@
-# Midweek Project
-The assignment is focused on building and interpreting the nearest neighbor algorithm. We have used Iris flower species dataset and build the KNN model to classify the categories of flower in the dataset. Once the model is trained it can be used to test any unknown entity and compartmentalize them amongst the pre-defined categories. Model is trained and the categories have been labeled using the multiple attributes of the flowers, hence when we want to test any unknown type of Iris flower, we introduce it to the model and model calibrates it and put them in the category which is very alike to that flower. Basically, based on the attributes of the unknown flower, model tries to find under which category that flower lies in or in other words that flower is showing similarity with which group.
+# Midweek Project: Iris Classification
+In this midweek assignment you code and interpret a nearest neighbors algorithm that classifies Iris’s (flower) using the following dataset. This is a common use case for nearest neighbors. You use multiple attributes of the flowers to decide which type of Iris they are. Analyze the data set, and answer the following.
 
-# Final Project
-In this assignment we are modeling a KNN or K Nearest Neighbor algorithm to classify the Income earned by the citizens of US across all the races into two groups, namely Less than or equal to 50K annual income and Greater than 50K annual income. We wanted to build a model which can accurately classify citizens under the mentioned groups or cluster to ensure equal pay opportunities. We were determined to understand all the factors which affects the Income in US, hence number of bar graphs were generated to see the distribution of all the independent variables data against the average money earned by the citizens. Income is our dependent variable which is our Target or Label for the experiment.
+1) What was the overall accuracy of the model?
+2) What was the accuracy of each type of iris?
+3) Would you classify the model as a good model or not?
+
+# Final Project : Understanding Income Inequality
+We have been given census data about attributes of US citizens (occupation, education, gender, race). With organizations working to ensure equal pay, we want to build a model to see how accurately we can classify low income from high income citizens. Building this model will allow us to understand which attributes contribute to affluency and how we can improve policies in the US.
+
+Part 1: Use proper data cleansing techniques to ensure that you have the highest quality data to model this problem. Detail your process and discuss the decisions you made to clean the data.
+
+Part 2: Build a nearest neighbors model with the given data, interpret the results, and convey those results to stakeholders. Highlight key learning points such as feature importance of variables, how those variables explain the scenario, how you determined K, why you choose that final value of K, and the overall accuracy of your model and accompanying models.
